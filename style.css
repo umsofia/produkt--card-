@@ -1,28 +1,28 @@
-
-.montserrat-<uniquifier> {
-  font-family: "Montserrat", sans-serif;
-  font-optical-sizing: auto;
-  font-weight: <weight>;
-  font-style: normal;
+*{
+  box-sizing: border-box;
 }
 
+
 body {
+
  font-family: "Montserrat", sans-serif; 
  margin: 0;
  padding: 0;
+ color:#515076;
 }
 
 .container {
   background-image: url("images/bg.png");
-  background-size:790px auto;
+  background-size: 790px auto;
   max-width: 1110px;
   margin:0 auto;
+ justify-content:center;
 }
 
 .image-container {
     display: inline-block;
-    width: 340px;
-    height: 245px;
+    width: 290px;
+  
 }
     
 
@@ -32,7 +32,7 @@ body {
   line-height: 78px;
   margin:200px 0;
   text-align: center;
-  color:#515076;
+  
   }
 
 
@@ -41,9 +41,11 @@ body {
 
 .card{
 width:340px;
-background-color: #d6d6df;
-margin: 45px;
+background-color: #f7f7fa;
 padding: 25px;
+display:flex;
+flex-direction: column;
+justify-content: space-between;
 }
 
 .skin-type{
@@ -55,33 +57,28 @@ font-size: 12px;
 .product-list{
 list-style-type: none;
 padding:0;
-margin: 0;
-display: flex;
+display:flex;
 flex-wrap:wrap;
 gap: 45px;
-justify-content:space-between;
+justify-content:center;
+align-content: center;
+
+
 
 }
-.price-card {
+.card-price {
   display: flex;
-  flex-direction:;
-  justify-content: space-between;
+  justify-content:space-between;
   align-items: center;
-  padding: 20 px;
-  border: 1px;solid: #d77777;
-  border-radius: 8px;
-  width: 300px;
-  height: 24px;
-  margin:25 px;
+  padding: 20px;
 }
   
-.main-text
-  padding-left: 25;
-  paddig-right: 25;
- .image-container {
-  background-image: url('путь/к/вашей-bg 1.png');
-} 
-background-position : center; — выровняет фон по центру.
+
+  
+
+ 
+
+
   
 
 
