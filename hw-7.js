@@ -3,7 +3,7 @@ function showTemperature() {
 //temperature-20/25
     console.log(`сейас в ${city} температура - ${temperature} градусов по Цельсию`);
 }
-
+9
 
 showTemperature("Уфа", 20);
 showTemperature("Москва", 25);
