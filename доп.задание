@@ -1,0 +1,40 @@
+fanction sayHello(){
+    console.log"Hello"
+       
+}
+fanction greet(names){
+    //name="Amina";
+    names.forEach((name)=>{
+    console.log(Привет,${names};)
+    )}
+greet(["Amina","Irina"]);
+}
+
+//fanction sum(a,b){
+    // let sum0Nambers=a+b;
+   //return sum0Nambers;
+  //return a+b;
+  console.log (a+b);
+  const result2=sum (5,10);
+}
+fanction multiplay(a,b):{
+retern a*b
+let multiplay(2,3)=>6
+console.log(произведение чисел 2 и 3(6))
+}
+fanction formatPrice(currency){
+    return 300000
+    console.log(300000т.)
+
+}
+fanction checkAge( age){
+ if(age< 18)
+ retern("Доступ разрешен")   
+ сonsole.log(checkAge(16))
+
+}
+fanction greet(name){
+let name(гость)
+console.log(гость)
+}
+параметр-это например: имя,проверить возраст тоесть то что задает,а аргумент это его как бы результат.Например имя,либо возраст
