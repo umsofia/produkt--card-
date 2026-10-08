@@ -1,0 +1,40 @@
+function sayHello(){
+    console.log"Hello"
+       
+function greet(names){
+    //name="Amina";
+    names.forEach((name)=>
+    
+    )}
+greet(["Amina","Irina"]);
+}
+console.log(Привет,${names};)
+
+//function sum(a,b){
+    // let sum0Nambers=a+b;
+   //return sum0Nambers;
+  //return a+b;
+  console.log (a+b);
+  const result2=sum (5,10);
+}
+function multiplay(a,b):{
+return a*b
+let multiplay(2,3)=>6
+console.log(произведение чисел 2 и 3(6))
+}
+function formatPrice(currency){
+    return 300000
+    console.log(300000т.)
+
+}
+function checkAge( age){
+ if(age< 18)
+ retern("Доступ разрешен")   
+ сonsole.log(checkAge(16))
+
+}
+function greet(name){
+let name(гость)
+console.log(гость)
+}
+параметр-это например: имя,проверить возраст тоесть то что задает,а аргумент это его как бы результат.Например имя,либо возраст=
