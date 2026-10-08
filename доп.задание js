@@ -1,39 +1,39 @@
-fanction sayHello(){
+function sayHello(){
     console.log"Hello"
        
-}
-fanction greet(names){
+function greet(names){
     //name="Amina";
-    names.forEach((name)=>{
-    console.log(Привет,${names};)
+    names.forEach((name)=>
+    
     )}
 greet(["Amina","Irina"]);
 }
+console.log(Привет,${names};)
 
-//fanction sum(a,b){
+//function sum(a,b){
     // let sum0Nambers=a+b;
    //return sum0Nambers;
   //return a+b;
   console.log (a+b);
   const result2=sum (5,10);
 }
-fanction multiplay(a,b):{
-retern a*b
+function multiplay(a,b):{
+return a*b
 let multiplay(2,3)=>6
 console.log(произведение чисел 2 и 3(6))
 }
-fanction formatPrice(currency){
+function formatPrice(currency){
     return 300000
     console.log(300000т.)
 
 }
-fanction checkAge( age){
+function checkAge( age){
  if(age< 18)
  retern("Доступ разрешен")   
  сonsole.log(checkAge(16))
 
 }
-fanction greet(name){
+function greet(name){
 let name(гость)
 console.log(гость)
 }
