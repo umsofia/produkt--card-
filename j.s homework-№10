@@ -1,0 +1,61 @@
+const product=[
+    { 
+        name:"Увложняющий мусс"
+        price:"2750 р."
+        structure:"активные натуральные комплексы 
+                  витамины С, А, РР, В И Е
+                  солнцезащитные компоненты"
+    }
+    {   
+        name:"Увложняющяя маска"
+        price:"3500 р."
+    }   structure:"воски
+                   минералы
+                   масла"
+    { 
+        name:"Увложняющий мусс"
+        price:"1650 р."
+        structure:"минералы
+                   витамины С, А, РР, В И Е
+                   солнцезащитные компоненты"
+                  
+                  
+    }
+     { 
+        name:"Подарочный набор №1"
+        price:"4700 р."
+        structure:"воски
+                   минералы
+                   масла"
+    }
+     { 
+        name:"Подарочный набор №5"
+        price:"7500р."
+        structure:"активные натуральные комплексы 
+                   витамины С, А, РР, В И Е
+                   солнцезащитные компоненты"
+         
+        
+
+    }
+    
+
+    const productTemplate=document.getElementById('produc-template');
+    const productList=document.getElementById(product-list);
+    product.forEach(product=>{
+    const productClone=productTemplate.content.cloneNode(true);
+    productClone.quarySelector('.product-name')textContent=`наименоание:${product.name}`
+    productClone.quarySelector('.product-price')textContent= `цена:${product.price}`
+    productClone.quarySelector('.product-structure')textContent= `состав:${product.structure}`
+    productList.apendChild(productClone
+    console.log(productList)
+    })
+
+
+
+    //2.
+    const numders=[1,2,3,40,4,5,50,5.10,20]
+    const sum=numders.reduse((acc,num)=>{
+
+      },0 );
+      console.log(sum)

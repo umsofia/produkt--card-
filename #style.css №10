@@ -1,0 +1,10 @@
+product-list{
+    display: flex;
+
+}
+product-container{
+ display: inline-flex;
+ flex:-diection: column
+ gap: 7px;
+ border: 1px solid black;
+}
