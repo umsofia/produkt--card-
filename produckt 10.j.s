@@ -1,19 +1,22 @@
 const product=[
     { 
-        name:"Увложняющий мусс"
-        price:"2750 р."
+        title:"Увложняющий мусс",
+        description:" Глубоко увлажняют кожу лица, оставляя её мягкой и гладкой.",
+        price:"2750 р.",
         structure:"активные натуральные комплексы 
                   витамины С, А, РР, В И Е
                   солнцезащитные компоненты"
     }
     {   
-        name:"Увложняющяя маска"
+        title:"Увложняющяя маска"
+        description:"Способствует удерживанию влаги в верхних слоях кожи."
         price:"3500 р."
     }   structure:"воски
                    минералы
                    масла"
     { 
-        name:"Увложняющий мусс"
+        title:"Увложняющий мусс"
+        description:"Интенсивно очищает, не повреждает защитный барьер кожи."
         price:"1650 р."
         structure:"минералы
                    витамины С, А, РР, В И Е
@@ -22,22 +25,25 @@ const product=[
                   
     }
      { 
-        name:"Подарочный набор №1"
+        title:"Подарочный набор №1"
         price:"4700 р."
+        description:"Набор, состоящий из увлажняющего крема и маски."
         structure:"воски
                    минералы
                    масла"
     }
      { 
-        name:"Подарочный набор №5"
+        title:"Подарочный набор №5"
         price:"7500р."
+        description:"Весь набор средств Invisible symphony, крем, маска, мусс и гель для
+            умывания."
         structure:"активные натуральные комплексы 
                    витамины С, А, РР, В И Е
                    солнцезащитные компоненты"
          
         
 
-    }
+    }]
     
 
     const productTemplate=document.getElementById('produc-template');
@@ -54,8 +60,8 @@ const product=[
 
 
     //2.
-    const numders=[1,2,3,40,4,5,50,5.10,20]
-    const sum=numders.reduse((acc,num)=>{
 
+    const productDescripshion=products.reduce((acc,product)=>{
+    acc[product.title]=product.description
       },0 );
-      console.log(sum)
+      console.log()
