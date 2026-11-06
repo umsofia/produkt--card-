@@ -1,0 +1,13 @@
+.product-cards{
+    display: flex;
+
+}
+.container_cards{
+ display: flex;
+
+ 
+ 
+ flex-direction: column;
+ gap: 7px;
+ border : 1px solid black;
+}
