@@ -5,9 +5,14 @@
 .container_cards{
  display: flex;
 
+
+
  
- 
- flex-direction: column;
+ .flex-direction _ column;
  gap: 7px;
  border : 1px solid black;
+}
+product-container{
+ display: inline-flex;
+ flex:-diection: column
 }
