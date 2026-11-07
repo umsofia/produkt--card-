@@ -6,6 +6,7 @@ const getCardCount=()=>{
  }
  return count;
   
+
   if (!isNaN(count) && count >= 1 && count <= 5) {
     return count;
   }
@@ -16,8 +17,11 @@ const getCardCount=()=>{
 }
 
 // Запуск программы
-const productList = document.querySelector(".container_cards");
-const productTemplate = document.querySelector("#product-template");
+const containerCards = document.querySelector(".container_cards");
+const productTemplate = document.querySelector(".product-template");
+
+ console.log(containerCards);
+ console.log(productTemplate)
 
 const renderProduct = (products) => {
   products.forEach((products,index)=>{
@@ -29,6 +33,13 @@ const renderProduct = (products) => {
       images.alt=product.title;
 }
  ")";
+
+      productClone.querySelector(".card_title").textContent = product.title; 
+      productClone.querySelector(".skin-type").textContent = product.skinType; 
+      productClone.querySelector(".description").textContent = product.description; 
+      productClone.querySelector(".list-structure").textContent = product.listStructure; 
+      productClone.querySelector(".product-price").textContent = product.price; 
+  
       
       productClone.querySelector("card_skin-type.").textContent=
       product.skinType;
