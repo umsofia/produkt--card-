@@ -4,15 +4,14 @@
 }
 .container_cards{
  display: flex;
-
-
-
- 
- .flex-direction _ column;
- gap: 7px;
+.flex-direction:column;
+ gap : 7px;
+ .butten{
  border : 1px solid black;
 }
-product-container{
+
+
+.product-container{
  display: inline-flex;
- flex:-diection: column
+ flex:-diection; column;
 }
