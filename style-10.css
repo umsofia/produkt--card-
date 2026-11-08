@@ -1,0 +1,17 @@
+.product-cards{
+    display: flex;
+
+}
+.container_cards{
+ display: flex;
+.flex-direction:column;
+ gap : 7px;
+ .butten{
+ border : 1px solid black;
+}
+
+
+.product-container{
+ display: inline-flex;
+ flex:-diection; column;
+}
