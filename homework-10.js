@@ -15,7 +15,9 @@ const productTemplate = document.querySelector(".product-template");
 
 const renderProduct = (count) => {
   if (!containerCards || !productTemplate) {
-    console.error("Ошибка: Проверьте селекторы .container_cards или .product-template в HTML.");
+    console.error(
+      "Ошибка: Проверьте селекторы .container_cards или .product-template в HTML.",
+    );
     return;
   }
 
@@ -65,7 +67,3 @@ const renderProduct = (count) => {
 
 const numberOfCards = getCardCount();
 renderProduct(numberOfCards);
-
-  
-
-    
