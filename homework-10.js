@@ -26,7 +26,7 @@ const renderProduct = (count) => {
   limitedProducts.forEach((product) => {
     const productClone = productTemplate.content.cloneNode(true);
 
-    const image = productClone.querySelector(".product_cardimg");
+    const image = productClone.querySelector(".img class");
     if (image) {
       image.src = product.img;
       image.alt = product.title;
