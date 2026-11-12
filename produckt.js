@@ -1,6 +1,6 @@
-export const products = [
+export default product = [
   {
-    img: "../homework.1,2,3,4,5,6/img/photo-mousse1.jpg",
+    img: "../homework.1,2,3,4,5/img/photo-mousse1.jpg",
     title: "Увлажняющий мусс",
     skinType: "для нормальной кожи",
     description: "Глубоко увложняет кожу лица, оставляя ее мягкой и гладкой.",
@@ -13,8 +13,8 @@ export const products = [
     currency: "₽",
   },
   {
-    img: "../homework.1,2,3,4,5,6/img/photo-mask2.jpg",
-    title: "Увлажняющая маска",
+    img: "../homework.1,2,3,4,5/img/photo-mask2.jpg",
+    title: "Увлажняющая маска"ю,
     skinType: "для нормальной кожи",
     description: "Способствует увлажнению и питанию кожи.",
 
@@ -26,7 +26,7 @@ export const products = [
     currency: "₽",
   },
   {
-    img: "../homework.1,2,3,4,5,6/img/photo-gel3.jpg",
+    img: "../homework.1,2,3,4,5/img/photo-gel3.jpg",
     title: "Гель для умывания кожи",
     skinType: "для нормальной кожи",
     description: "Интенсивно очищает,не повреждает защитный барьер кожи.",
@@ -38,7 +38,7 @@ export const products = [
     currency: "₽",
   },
   {
-    img: "../homework.1,2,3,4,5,6/img/photo-nabor4.jpg",
+    img: "../homework.1,2,3,4,5/img/photo-nabor4.jpg",
     title: "Подарочный набор №1",
     skinType: "для нормальной кожи",
     description: "Набор, состоящий из увлажняющего крема и маски.",
@@ -49,20 +49,9 @@ export const products = [
     price: 4700,
     currency: "₽",
   },
+  
   {
-    img: "../homework.1,2,3,4,5,6/img/photo-nabor5.jpg",
-    title: "Подарочный набор №5",
-    skinType: "для нормальной кожи",
-    description: "Набор, состоящий из увлажняющего крема и маски.",
-    item1: "воски",
-    item2: "минералы",
-    item3: "масла",
-    priceText: "Цена:",
-    price: 4700,
-    currency: "₽",
-  },
-  {
-    img: "/homework.1,2,3,4,5,6/img/photo-nabor5.jpg",
+    img: "../homework.1,2,3,4,5/img/photo-nabor5.jpg",
     title: "Подарочный набор №5",
     skinType: "для нормальной кожи",
     description:
