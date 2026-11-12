@@ -4,7 +4,7 @@
 }
 .container_cards{
  display: flex;
-.flex-direction:column;
+ flex-direction: column;
  gap : 7px;
  .butten{
  border : 1px solid black;
