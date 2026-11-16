@@ -1,4 +1,4 @@
-import { product } from "./product.js";
+import { products } from "./produckt.js";
 
 const getCardCount = () => {
   let count = Number(prompt("Сколько карточек отобразить? От 1 до 5"));
@@ -10,9 +10,10 @@ const getCardCount = () => {
   return count;
 };
 
-const containerCards = document.querySelector(".container_cards");
-const productTemplate = document.querySelector(".product-template");
+getCardCount();
 
+const productTemplate = document.querySelector(".product-template");
+const containerCards = document.getElementById("product-list");
 const renderProduct = (count) => {
   if (!containerCards || !productTemplate) {
     console.error(
@@ -28,25 +29,24 @@ const renderProduct = (count) => {
 
     const image = productClone.querySelector(".img__class");
 
-
     if (image) {
       image.src = product.img;
       image.alt = product.title;
     }
 
-    const title = productClone.querySelector(".card__title");
+    const title = productClone.querySelector(".card_title");
     if (title) title.textContent = product.title;
 
-    const skinType = productClone.querySelector(".card__skin-type");
+    const skinType = productClone.querySelector(".card_skin-type");
     if (skinType) skinType.textContent = product.skinType;
 
     const description = productClone.querySelector(".description");
     if (description) description.textContent = product.description;
 
-    const listStructure = productClone.querySelector(".list-structure");
+    const listStructure = productClone.querySelector(".list_structure");
     if (listStructure) listStructure.textContent = product.listStructure;
 
-    const items = productClone.querySelectorAll(".card__item");
+    const items = productClone.querySelectorAll(".card_item");
     const productItems = [product.item1, product.item2, product.item3];
 
     items.forEach((item, index) => {
