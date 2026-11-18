@@ -3,7 +3,7 @@
   box-sizing: border-box;
 }
 
-.container {
+.product-container_cards{
   background-image: url("images/bg.png");
   background-size: 790px auto;
   max-width: 1110px;
@@ -12,7 +12,10 @@
 }
 
 
-.title {
+
+
+
+.title{
   font-size: 70px;
   font-weight: 400;
   line-height: 78px;
@@ -25,26 +28,18 @@ body {
 
  font-family: "Montserrat", sans-serif; 
  font-weight: 230px;
- font: height 27px;
+ font-size: 27px;
  margin: 0;
  padding: 0;
  color:#515076;
 }
-for skin{
-  font-size: 13px;
-  line-height: 24px;
-}
- 
-
-  
-
-
 
 .card_image-container {
     display: inline-block;
     width: 290px;
     margin-bottom: 30px;
     text-align: center;
+    
     
   
 }
@@ -63,20 +58,24 @@ flex-direction: column;
 justify-content: space-between;
 }
 
-.card__skin-type{
+.card_skin-type{
 text-transform: uppercase;
-display: block;
+display: flex;
 font-size: 12px;
+line-height: 24px;
 }
 
 .product-list{
 list-style-type: none;
 padding:0;
+margin:auto;
 display: flex;
 flex-wrap: wrap;
-gap: 30px;
+gap: 45px;
 justify-content: center;
-align-content: cente 
+align-content: center;
+text-align: center;
+
 
 
 
