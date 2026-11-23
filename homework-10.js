@@ -1,4 +1,4 @@
-import { products } from "./produckt.js";
+import { products } from "./product.js";
 
 const getCardCount = () => {
   let count = Number(prompt("Сколько карточек отобразить? От 1 до 5"));
@@ -10,10 +10,9 @@ const getCardCount = () => {
   return count;
 };
 
-getCardCount();
-
 const productTemplate = document.querySelector(".product-template");
-const containerCards = document.getElementById("product-list");
+const containerCards = document.querySelector(".product-list");
+0;
 const renderProduct = (count) => {
   if (!containerCards || !productTemplate) {
     console.error(
@@ -34,10 +33,10 @@ const renderProduct = (count) => {
       image.alt = product.title;
     }
 
-    const title = productClone.querySelector(".card_title");
+    const title = productClone.querySelector(".card__title");
     if (title) title.textContent = product.title;
 
-    const skinType = productClone.querySelector(".card_skin-type");
+    const skinType = productClone.querySelector(".card__skin-type");
     if (skinType) skinType.textContent = product.skinType;
 
     const description = productClone.querySelector(".description");
@@ -55,10 +54,10 @@ const renderProduct = (count) => {
       }
     });
 
-    const priceText = productClone.querySelector(".card_price-text");
+    const priceText = productClone.querySelector(".card__price-text");
     if (priceText) priceText.textContent = product.priceText;
-
-    const cardPrice = productClone.querySelector(".card_price");
+    ///cardText.textContent = `${product.text} ${product.text || "цена"}`;///--
+    const cardPrice = productClone.querySelector(".card__price");
     if (cardPrice) {
       cardPrice.textContent = `${product.price} ${product.currency || "₽"}`;
     }

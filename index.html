@@ -14,22 +14,19 @@
     <link rel="stylesheet" href="style.css" >
   </head>
   <body>
-    <h1>Выбери свой продукт</h1>
-    <button id="change=Color=Button">сменить цвет карточки</button>
-
-    <main class="container">
-      <div class="container_cards">
-        
     
-
-
+    <button id="change=Color=Button">сменить цвет карточки</button>
+   
+    <h1 class="title">Выбери свой продукт</h1>  
+    <main class="container">
+     <!-- div class="container_cards">-->
         
-      <ul id="product-list"></ul>
+   <ul class="product-list">
         <template class="product-template">
-          <div class="product-card">
-            <img class="img__class" src="" alt="Produckt Image" />
-            <span class="card_skin-type"></span>
-            <h2 class="card_title"></h2>
+          <li class="card">
+            <img class="img__class" src="" alt="Product Image" />
+            <span class="card__skin-type">для номальой кожи</span>
+            <h2 class="card__title"></h2>
             <p class="description"></p>
             <span class="list-structure">Состав</span>
             <ul class="product__items-list">
@@ -38,11 +35,11 @@
               <li class="card_item"></li>
             </ul>
             
-            <div class="card_price-row">
-              <b class="card_price-text">Цена</b>
-              <span class="card_price"></span>
+            <div class="card__price-row">
+              <b class="card__price-text">Цена</b>
+              <span class="card__price"></span>
             </div>
-          </div>
+          </li>
          </template>
          
       </div>
